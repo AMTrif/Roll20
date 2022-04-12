@@ -1,0 +1,18 @@
+&{template:pc}
+ {{showchar=[[1]]}}
+ {{charname=@{selected|token_name}}}
+ {{name=Psudo Bite}}
+ {{atkvs=(Melee vs AC)}}
+ {{type=attackdamage}}
+ {{attack=1}}
+ {{damage=1}}
+ {{dmg1flag=1}}
+ {{roll=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|dexterity_mod}[MOD] + 1d20cs>20 + 2]]}}
+ {{critconfirm=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|dexterity_mod}[MOD] + 1d20 + 2]]}}
+ {{dmg1=[[1]]}}
+ {{dmg1crit=[[1]]}}
+ {{descflag=On}}
+ {{desc=The Psudodragon bites its foe}}
+
+$Here is the version without line breaks$
+&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{name=Psudo Bite}} {{atkvs=(Melee vs AC)}} {{type=attackdamage}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{roll=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|dexterity_mod}[MOD] + 1d20cs>20 + 2]]}} {{critconfirm=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|dexterity_mod}[MOD] + 1d20 + 2]]}} {{dmg1=[[1]]}} {{dmg1crit=[[1]]}} {{descflag=On}} {{desc=The Psudodragon bites its foe}}
