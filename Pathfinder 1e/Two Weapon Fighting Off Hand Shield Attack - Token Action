@@ -1,7 +1,7 @@
 &{template:pc}
  {{showchar=[[1]]}}
  {{charname=@{selected|token_name}}}
- {{name=OH Shield Bash}}
+ {{name=Off Hand Shield Bash}}
  {{atkvs=(Melee vs AC)}}
  {{type=attackdamage}}
  {{attack=1}}
@@ -13,4 +13,4 @@
  {{dmg1crit=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}}
  
 $Here is the version without line breaks$
-&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{name=OH Shield Bash}} {{atkvs=(Melee vs AC)}} {{type=attackdamage}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{roll=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}} {{critconfirm=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}} {{dmg1=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}} {{dmg1crit=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}}
+&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{name=Off Hand Shield Bash}} {{atkvs=(Melee vs AC)}} {{type=attackdamage}} {{attack=1}} {{damage=1}} {{dmg1flag=1}} {{roll=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}} {{critconfirm=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}} {{dmg1=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}} {{dmg1crit=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}}
