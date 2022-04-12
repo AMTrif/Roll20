@@ -1,0 +1,16 @@
+&{template:pc}
+{{showchar=[[1]]}}
+{{charname=@{selected|token_name}}}
+{{type=attackdamage}}
+{{name=Wolf Attack}}
+{{atkvs=(Melee vs AC)}}
+{{attack=1}}
+{{damage=1}}
+{{dmg1flag=1}} 
+{{roll=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|strength_mod}[MOD] + 1d20cs>20]]}}
+{{critconfirm=[[@{selected|bab}[BAB] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] + @{selected|strength_mod}[MOD] + 1d20]]}}
+{{dmg1flag=1}} 
+{{dmg1=[[1d6+@{selected|strength_mod}]]}}
+{{dmg1crit=[[1d6+@{selected|strength_mod}]]}}
+{{descflag=On}}
+{{desc=The Wolf bites its foe and attempts to trip them}}] 
