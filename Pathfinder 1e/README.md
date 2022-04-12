@@ -1,9 +1,5 @@
 # Pathfinder 1e
-Testing out macros
-
-This will be filled with macros, most of which will most which will be be based off of borrowed code.
-If I have made them myself, those will most likely be sub-optimal and contain various errors.
-I am a work in progress.
+Mostly borrowed code, stitched together for my needs.  Use at your own risk!
 
 Reference Sites: (a mix of of info from all of these is useful)
 
