@@ -1,0 +1,5 @@
+Only listing entries requiring some kind of equation 
+
+Max per day: 3+@{charisma_mod}
+Effect: Heal for [[[[ceil(@{class1_level}/2)]]d6]
+DC: [[10+floor(@{class1_level}/2)+@{charisma_mod}]]
