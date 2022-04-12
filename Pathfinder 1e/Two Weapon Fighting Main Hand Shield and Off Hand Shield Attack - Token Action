@@ -1,0 +1,21 @@
+&{template:pc}
+ {{showchar=[[1]]}}
+ {{charname=@{selected|token_name}}}
+ {{name=Main Hand Shield Bash}}
+ {{atkvs=(Melee vs AC)}}
+ {{type=attackdamage}}
+ {{attack=1}}
+ {{damage=1}}
+ {{roll=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}}
+ {{critconfirm=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}}
+ {{rolldmg1=[[1d4 + @{selected|strength_mod} + @{selected|melee_damage_bonus}]]}}
+ {{rolldmg1crit=[[1d4 + @{selected|strength_mod} + @{selected|melee_damage_bonus}]]}}
+ {{roll1=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}}
+ {{critconfirm1=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}}
+ {{roll1dmg1=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}}
+ {{roll1dmg1crit=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}}
+ {{descflag=On}}
+ {{desc=Kal bashes his foe with his Heavy Shield, then follows up with the light shield in his off-hand}}
+
+$Here it is without line breaks$
+&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{name=Main Hand Shield Bash}} {{atkvs=(Melee vs AC)}} {{type=attackdamage}} {{attack=1}} {{damage=1}} {{roll=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}} {{critconfirm=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}} {{rolldmg1=[[1d4 + @{selected|strength_mod} + @{selected|melee_damage_bonus}]]}} {{rolldmg1crit=[[1d4 + @{selected|strength_mod} + @{selected|melee_damage_bonus}]]}} {{roll1=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20cs>20]]}} {{critconfirm1=[[@{selected|melee_mod}[BAB+MOD] + (?{Flank?|No,0|Yes,1} * 2) + @{selected|attack_bonus}[AB] - 2[TWF] + 1d20]]}} {{roll1dmg1=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}} {{roll1dmg1crit=[[1d3 + @{selected|strength_half_mod} + @{selected|melee_damage_bonus}]]}} {{descflag=On}} {{desc=Kal bashes his foe with his Heavy Shield, then follows up with the light shield in his off-hand}}
