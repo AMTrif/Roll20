@@ -1,0 +1,10 @@
+&{template:pc}
+ {{showchar=[[1]]}}
+ {{charname=@{selected|token_name}}}
+ {{smallname=Smite Evil}}
+ {{type=ability}}
+ {{descflag=On}}
+ {{desc=The _____ smites their foe! (If target is Evil: +Cha to hit (_) / +HD to damage (_))}}
+ 
+$Here is the version without line breaks$
+&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{smallname=Smite Evil}} {{type=ability}} {{descflag=On}} {{desc=The _____ smites their foe! (If target is Evil: +Cha to hit (_) / +HD to damage (_))}}
