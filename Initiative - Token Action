@@ -1,0 +1,9 @@
+&{template:pc}
+ {{showchar=[[1]]}}
+ {{charname=@{selected|token_name}}}
+ {{name=Initiative}}
+ {{type=initiative}} $this is a comment$
+ {{roll=[[1d20+@{selected|initiative} &{tracker}]]}}
+ 
+ $Here's the version without line breaks$
+ &{template:pc} {{showchar=[[1]]}} {{charname=@{selected|token_name}}} {{name=Initiative}} {{type=initiative}} $this is a comment$ {{roll=[[1d20+@{selected|initiative} &{tracker}]]}}
