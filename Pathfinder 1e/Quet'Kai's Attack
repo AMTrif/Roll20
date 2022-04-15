@@ -22,3 +22,6 @@ and since I don't need it right now, I'm not going to break my brain understandi
 
 Here's the query that the single ability was nested in, prior to expanding it to multiple choices:
 ?{Question|Yes,%{selected|GoreHTML}|No,Test}
+
+The basis for this, in addition to the main documentation, was built by referencing this:
+https://app.roll20.net/forum/post/4074063/query-inside-a-query
