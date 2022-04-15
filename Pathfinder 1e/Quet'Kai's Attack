@@ -25,3 +25,6 @@ Here's the query that the single ability was nested in, prior to expanding it to
 
 The basis for this, in addition to the main documentation, was built by referencing this:
 https://app.roll20.net/forum/post/4074063/query-inside-a-query
+
+His final nest of nesting ended up looking like this:
+?{Which type of attack?|Full, ?{Is Rage Active&#124;Yes&#44; Full Rage&#124;No&#44; Full Non Rage&#124;&#125;|Standard, ?{Is Rage Active&#124;Yes&#44; Rage Standard&#124;No&#44; Non Rage Standard&#124;&#125;}
