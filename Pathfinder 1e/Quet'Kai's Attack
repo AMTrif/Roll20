@@ -15,7 +15,10 @@
 {{dmg1crit=[[1d10+@{selected|strength_mod}[STR] + @{selected|melee_damage_bonus}[Damage Bonuses]]]&#125;&#125; 
 {{desc=Quet’Kai tries to Gore his foe with his horns&#125;&#125;
 
-Note that &#125; was used in place of } to avoid breaking the game when including this as an optional ability in a quary.
+Note that &#125; was used in place of } to avoid breaking the game when including this as an optional ability in a query.
 However, not all were replaced.
 it looks annoying to figure out, and I'm not sure how he did it.
 and since I don't need it right now, I'm not going to break my brain understanding it for the moment.
+
+Here's the query that the single ability was nested in, prior to expanding it to multiple choices:
+?{Question|Yes,%{selected|GoreHTML}|No,Test}
